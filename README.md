@@ -25,7 +25,7 @@ The HR employee attrition report looks at a wide variety of employees and analyz
 **Please remember to update this section**
 
 - Person 1: one sentence about you!
-- Person 2: one sentence about you!
+- Ryan Grant: UBC Computer Science Major, Video game enjoyer, Programmer
 - Jason Ramos: Programmer, Data Scientist, and UBC Computer Science Major.
 
 ## Images
