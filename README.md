@@ -12,7 +12,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project).
 
 **Please remember to update this section**
 
-As students currently working and soon to be transitioning into full time employment, the dataset is highly relevant the team. We are interested in this dataset because we want to understand the leading factors that lead to employee attrition and more importantly, how we could use that to our benefit. Furthermore, we are also interested in why such factors would play a role in employee attrition to get a deeper understanding and rationalize the data. Lastly, we think this dataset is also broad enough that all members of the team will have their separate unique motivations which will make the project more meaningful for everyone.
+As students currently working and soon to be transitioning into full time employment, the dataset is highly relevant to the team. We are interested in this dataset because we want to understand the leading factors that lead to employee attrition and more importantly, how we could use that to our benefit. Furthermore, we are also interested in why such factors would play a role in employee attrition to get a deeper understanding and rationalize the data. Lastly, we think this dataset is also broad enough that all members of the team will have their separate unique motivations which will make the project more meaningful for everyone.
 
 ## Describe your dataset in about 150-200 words
 
@@ -25,7 +25,7 @@ The HR employee attrition report looks at a wide variety of employees and analyz
 **Please remember to update this section**
 
 - Person 1: one sentence about you!
-- Ryan Grant: UBC Computer Science Major, Video game enjoyer, Programmer
+- Ryan Grant: UBC Computer Science Major, Video game enjoyer, Programmer.
 - Jason Ramos: Programmer, Data Scientist, and UBC Computer Science Major.
 
 ## Images
