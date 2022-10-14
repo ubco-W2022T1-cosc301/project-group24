@@ -38,3 +38,6 @@ The HR employee attrition report looks at a wide variety of employees and analyz
 
 Employee Analysis | Attrition Report: 
 https://www.kaggle.com/datasets/whenamancodes/hr-employee-attrition
+
+Link to [Dataset](https://www.kaggle.com/datasets/whenamancodes/hr-employee-attrition)
+
