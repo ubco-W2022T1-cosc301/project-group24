@@ -1,5 +1,7 @@
 # **Group 24 - Employee Unhappiness in a Nutshell**
 
+---
+
 ## **Milestones**
 
 - [x] Form Team and Find Dataset
