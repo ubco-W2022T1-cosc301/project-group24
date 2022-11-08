@@ -19,18 +19,23 @@ def EDA(df):
     SecondEda(df)
     
 def FirstEda(df):
-    Info(df)
+    display(df.info())
     display(df.head)
     display(df.shape)
     display(list(df.columns))
     display(df.describe())
     display(df.nunique())
     
-def Info(df):
-    print("info")
-    display(df.info())
-    
 def SecondEda(df):
     corr = df.corr()
     sns.heatmap(corr, xticklabels = corr.columns, yticklabels=corr.columns, annot = False, cmap = sns.diverging_palette(220,20,as_cmap=True))
     hist = df.hist(bins = 10,figsize = (20,10))
+    df2 = df.loc[df['Attrition'] == 'Yes']
+    df3 = df.loc[df['Attrition'] == 'No']
+    col = ['Age','DailyRate','DistanceFromHome','TotalWorkingYears','YearsAtCompany','YearsInCurrentRole','YearsSinceLastPromotion']
+    df4 = df2[col].mean()
+    df5 = df3[col].mean()
+    print("Averages of people with attrition")
+    print(df4)
+    print("Averages of people without attrition")
+    print(df5)
