@@ -47,8 +47,11 @@ def categoricalEda(df):
   
 def numericalEda(df):
   ### Runs an EDA for the numerical attributes in the dataframe ###
-  corrDf(df)
+  
+  # Factorize the attrition to work well with the numerical data
+  df["Attrition"] = df["Attrition"].map({"No": 0, "Yes": 1}).astype('int64')
   attritionCorrDf(df)
+  headmapDf(df)
   
 def printDfInfo(df):
   ### Prints the dataframe information with title ###
@@ -98,10 +101,8 @@ def attritionPercentageDf(df):
   percentageDf = percentageDf.sort_values(by=["Percentage"], ascending=False)
   display(percentageDf)
   
-def corrDf(df):
+def headmapDf(df):
   ### Produces a heatmap of the correlations between the numerical attributes ### 
-  labels, categories = pd.factorize(df["Attrition"])
-  df["Attrition"] = labels
   corr = df.corr()
   
   fig, axs = plt.subplots(1, 1, figsize=(8, 7))
@@ -109,14 +110,13 @@ def corrDf(df):
   
 def attritionCorrDf(df):
   ### Produces a table of the correlations between attrition and the numerical attributes ###
-  labels, categories = pd.factorize(df["Attrition"])
-  df["Attrition"] = labels
   corr = df.corr()
   
   print("\n\nCorrelation between Numerical Attributes and Attrition ordered by correlation magnitude:")
-  topCorr = pd.DataFrame.from_dict(corr["Attrition"].abs())
+  topCorr = pd.DataFrame.from_dict(corr["Attrition"])
   topCorr.rename(columns={"Attrition": "Correlation"}, inplace=True)
-  topCorr = topCorr.sort_values(by=["Correlation"], ascending=False)
+  topCorr["Magnitude"] = topCorr["Correlation"].abs()
+  topCorr = topCorr.sort_values(by=["Magnitude"], ascending=False)
   display(topCorr)
   
 def distributionByCategories(df, attributes):
