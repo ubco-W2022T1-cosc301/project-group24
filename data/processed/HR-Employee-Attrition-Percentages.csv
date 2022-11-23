@@ -1,0 +1,65 @@
+,Category,Value,Percentage
+,JobRole,Sales Representative,0.4
+,JobInvolvement,1,0.34
+,WorkLifeBalance,1,0.31
+,OverTime,Yes,0.31
+,JobLevel,1,0.26
+,MaritalStatus,Single,0.26
+,EducationField,Human Resources,0.26
+,BusinessTravel,Travel_Frequently,0.25
+,EnvironmentSatisfaction,1,0.25
+,EducationField,Technical Degree,0.24
+,JobRole,Laboratory Technician,0.24
+,StockOptionLevel,0,0.24
+,JobRole,Human Resources,0.23
+,JobSatisfaction,1,0.23
+,EducationField,Marketing,0.22
+,RelationshipSatisfaction,1,0.21
+,Department,Sales,0.21
+,JobInvolvement,2,0.19
+,Department,Human Resources,0.19
+,Education,1,0.18
+,StockOptionLevel,3,0.18
+,WorkLifeBalance,4,0.18
+,JobSatisfaction,3,0.17
+,WorkLifeBalance,2,0.17
+,JobRole,Sales Executive,0.17
+,Gender,Male,0.17
+,Education,3,0.17
+,JobSatisfaction,2,0.16
+,PerformanceRating,4,0.16
+,Education,2,0.16
+,JobRole,Research Scientist,0.16
+,PerformanceRating,3,0.16
+,BusinessTravel,Travel_Rarely,0.15
+,RelationshipSatisfaction,2,0.15
+,EnvironmentSatisfaction,2,0.15
+,RelationshipSatisfaction,4,0.15
+,RelationshipSatisfaction,3,0.15
+,Education,4,0.15
+,Gender,Female,0.15
+,JobLevel,3,0.15
+,EducationField,Life Sciences,0.15
+,EnvironmentSatisfaction,3,0.14
+,Department,Research & Development,0.14
+,WorkLifeBalance,3,0.14
+,EducationField,Medical,0.14
+,JobInvolvement,3,0.14
+,EducationField,Other,0.13
+,EnvironmentSatisfaction,4,0.13
+,MaritalStatus,Married,0.12
+,JobSatisfaction,4,0.11
+,MaritalStatus,Divorced,0.1
+,Education,5,0.1
+,OverTime,No,0.1
+,JobLevel,2,0.1
+,StockOptionLevel,1,0.09
+,JobInvolvement,4,0.09
+,StockOptionLevel,2,0.08
+,BusinessTravel,Non-Travel,0.08
+,JobRole,Healthcare Representative,0.07
+,JobLevel,5,0.07
+,JobRole,Manufacturing Director,0.07
+,JobRole,Manager,0.05
+,JobLevel,4,0.05
+,JobRole,Research Director,0.02

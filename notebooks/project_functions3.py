@@ -17,6 +17,7 @@ def load_and_process(url_or_path_to_csv_file):
                            "StockOptionLevel", "WorkLifeBalance"]
   for attribute in categoricalAttributes:
     setAsCategory(cleaned_df, attribute)
+    
   return cleaned_df
 
 def setAsCategory(df, attribute):
@@ -99,6 +100,7 @@ def attritionPercentageDf(df):
   noIndex = [''] * len(percentages)
   percentageDf = pd.DataFrame(percentages, columns=["Category", "Value", "Percentage"], index=noIndex)
   percentageDf = percentageDf.sort_values(by=["Percentage"], ascending=False)
+  percentageDf.to_csv("HR-Employee-Attrition-Percentages.csv")
   display(percentageDf)
   
 def headmapDf(df):
